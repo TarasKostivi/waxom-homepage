@@ -46,7 +46,7 @@ img{
     padding: 0 15px;
 }
 .container{
-    max-width: 2000px;
+    max-width: 1200px;
     margin: auto;
 }
 /* == container end == */
@@ -77,9 +77,98 @@ img{
     line-height: 1;
 }
 /* = default-text end = */
-/* .header{
+.header{
     position: fixed;
-    overflow: hidden;
-} */
-
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding-top: 40px;
+}
+.header-nav,
+.search-nav{
+    line-height: 56px;
+}
+.header-nav{
+    padding-right: 60px; 
+}
+.header-nav a{
+    font-size: 14px;
+    font-weight: 400;
+}
+.search-nav a{
+    font-size: 25px;
+    font-weight: 400; 
+}
+.header-nav a + a,
+.search-nav a + a{
+    padding-left: 30px;
+}
+.header-nav a:hover,
+.search-nav a:hover{
+    color: #c7b299;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.64;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    padding: 19px 37px 18px 40px;
+    margin-top: 50px;
+}
+.btn.btn-default{
+    color: #fff;
+    background-color: #998675;
+}
+.btn.btn-default:hover{
+    color: #c7b299;
+    background-color: #736357;
+}
+.carousel-control-prev{
+    left: -300px;
+}
+.carousel-control-next{
+    right: -300px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    font-size: 100px;
+}
 /* DEFAULT COMPONENT END */
+/* CUSTOM STYLE START */
+.inner{
+    height: 100vh;
+    background: url(../img/inner-bg.jpg) no-repeat center / cover;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+.inner-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-inner .title{
+    font-size: 36px;
+    font-weight: 500;
+}
+.carousel-inner h1{
+    font-size: 52px;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+}
+.carousel-inner h1 span{
+    display: block;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+.carousel-inner .default-text{
+    max-width: 74%;
+    font-weight: 300;
+    margin: auto;
+    line-height: 2;
+}
+/* CUSTOM STYLE END */
