@@ -136,6 +136,7 @@ img{
     font-size: 100px;
 }
 /* DEFAULT COMPONENT END */
+
 /* CUSTOM STYLE START */
 .inner{
     height: 100vh;
@@ -170,5 +171,39 @@ img{
     font-weight: 300;
     margin: auto;
     line-height: 2;
+}
+/*  */
+
+.services-tab .nav-tabs > li{
+	width: 25%;
+	text-align: center;
+}
+.services-tab .nav-tabs > li a{
+    font-size: 14px;
+    font-weight: 600;
+}
+/* .services-tab .nav-tabs>li.active>a{
+    color: #555;
+    cursor: default;
+} */
+.services-tab .nav-tabs > li a span:not(.icon){
+	display: block;
+}
+.services-tab .nav-tabs > li .icon{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #555;
+}
+.services-tab .nav-tabs .title{
+    font-size: 22px;
+    color: #555;
+}
+.services-tab .nav-tabs .active span{
+    color: #c7b299;
+}
+.services-tab .nav-tabs .default-text{
+    padding-top: 15px;
+    line-height: 1.6;
 }
 /* CUSTOM STYLE END */
