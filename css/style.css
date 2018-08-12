@@ -39,6 +39,9 @@ img{
 .bg-color-fb{
     background-color:  #fbfaf8;
 }
+.text-wax{
+    color: #c7b299;
+}
 /* DEFAULT CLASES END */
 
 /* DEFAULT COMPONENT START */
@@ -59,6 +62,7 @@ img{
 }
 .default-section.small{
     padding: 50px 0;
+    background: linear-gradient(to right, #251d1b, #452f24)
 }
 /* == defailt-section end == */
 
@@ -247,5 +251,13 @@ img{
     line-height: 1.6;
 }
 /* ======= services-tab end ======= */
-
+.default-section.small .btn{
+    margin-top: 0;
+}
+.default-section.small .default-text{
+    color: #615855;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 13px;
+}
 /* CUSTOM STYLE END */
