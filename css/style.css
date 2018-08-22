@@ -242,7 +242,6 @@ img{
     left: 39%;
     top: 110px;
 }
-
 .services-tab .nav-tabs .active span{
     color: #c7b299;
 }
@@ -259,5 +258,13 @@ img{
     font-size: 18px;
     font-weight: 400;
     padding-top: 13px;
+}
+.idea-wrap .default-text{
+    padding: 19px 0 35px 0;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 760px;
+    line-height: 28px;
+    margin: auto;
 }
 /* CUSTOM STYLE END */
