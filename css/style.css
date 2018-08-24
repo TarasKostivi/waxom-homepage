@@ -30,6 +30,9 @@ img{
 /* RESET END*/
 
 /* DEFAULT CLASES START */
+.text-link-icon{
+    color: #c7b299;
+}
 .text-white{
     color: #fff;
 }
@@ -237,8 +240,8 @@ img{
     top: 110px;
 }
 .services-tab .nav-tabs .active p::before{
-    width: 70px;
     background-color: #c7b299;
+    width: 70px;
     left: 39%;
     top: 110px;
 }
@@ -256,15 +259,85 @@ img{
 .default-section.small .default-text{
     color: #615855;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     padding-top: 13px;
+}
+.idea-wrap {
+    padding-top: 80px;
 }
 .idea-wrap .default-text{
     padding: 19px 0 35px 0;
+    margin: auto;
+    max-width: 760px;
     font-size: 16px;
     font-weight: 400;
-    max-width: 760px;
     line-height: 28px;
+}
+.letest-progect .default-text{
     margin: auto;
+    max-width: 743px;
+    margin-top: 25px;
+    line-height: 28px;
+}
+.letest-progect .letest-progect-img .letest-item .letest-item-info{
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fbfaf8;
+}
+.letest-progect .letest-progect-img .letest-item .letest-item-info:hover{
+    background-color: #362f2d;
+}
+.letest-progect .letest-progect-img .letest-item .letest-item-img{
+    position: relative;
+}
+.letest-progect .letest-progect-img .letest-item .letest-item-img .letest-item-icon{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    transform: scale(.8);
+    transition: all .3s linear;
+}
+.letest-progect .letest-progect-img .letest-item .letest-item-img:hover .letest-item-icon{
+    opacity: 1;
+    transform: scale(1);
+}
+.letest-progect .letest-progect-img .letest-item span{
+    display: block;
+}
+.letest-progect .letest-progect-img .letest-item .letest-item-info{
+    font-family: "Montserrat", sans-serif;
+    line-height: 20px;
+}
+.letest-progect .letest-progect-img .letest-item .letest-item-info .letest-item-prosesing{
+    color: #c7b299;
+    font-size: 20px;
+    font-weight: 500;
+}
+.letest-progect .letest-progect-img .letest-item .letest-item-info .letest-item-role{
+    color: #d1d1d1;
+    font-size: 14px;
+    line-height: 20px
+}
+.letest-progect .letest-progect-img .letest-item .letest-item-img .letest-item-icon{
+    font-size: 20px;
+}
+.nav-pills{
+    margin-top: 30px;
+}
+.nav-pills .nav-link.active{
+    background-color: #998675;
+}
+.nav-link{
+    border: 1px solid #ebebeb;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav-item + .nav-item{
+    padding-left: 10px;
 }
 /* CUSTOM STYLE END */
